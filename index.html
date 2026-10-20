@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY SPECIAL SITE</title>
+    <style>
+        /* 🌟 背景のデザイン（宇宙っぽいかっこいいグラデーション） */
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* 📦 プロフィールの箱 */
+        .profile-card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        h1 {
+            font-size: 24px;
+            margin-bottom: 5px;
+            color: #00f2fe;
+        }
+
+        .bio {
+            font-size: 14px;
+            color: #e0e0e0;
+            margin-bottom: 25px;
+        }
+
+        /* 🔘 リンクボタンのデザイン */
+        .link-button {
+            display: block;
+            background: linear-gradient(90deg, #00f2fe 0%, #4facfe 100%);
+            color: white;
+            text-decoration: none;
+            padding: 15px;
+            margin: 12px 0;
+            border-radius: 50px;
+            font-weight: bold;
+            font-size: 16px;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 15px rgba(0, 242, 254, 0.4);
+        }
+
+        /* 🖱️ ボタンに触れたとき（浮き出るアニメーション） */
+        .link-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0, 242, 254, 0.6);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="profile-card">
+        <!-- 💡 あなたの名前やニックネームに変えてね！ -->
+        <h1>Welcome to My Secret Base</h1>
+        <p class="bio">家で本気で開発を始めた中学生プログラマーのページ</p>
+
+        <!-- 🔗 好きなサイトへのボタン（URLや文字は自由に変えられます） -->
+        <a href="https://roblox.com" target="_blank" class="link-button">🎮 Roblox 公式サイト</a>
+        <a href="https://youtube.com" target="_blank" class="link-button">📺 お気に入り動画</a>
+        <a href="https://mit.edu" target="_blank" class="link-button">🛠️ Scratchで作った作品</a>
+    </div>
+
+</body>
+</html>
